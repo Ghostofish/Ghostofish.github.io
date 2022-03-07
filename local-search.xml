@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>车队经历</title>
+    <link href="/2022/03/07/%E8%BD%A6%E9%98%9F%E7%BB%8F%E5%8E%86/"/>
+    <url>/2022/03/07/%E8%BD%A6%E9%98%9F%E7%BB%8F%E5%8E%86/</url>
+    
+    <content type="html"><![CDATA[<h1 id="车队经历"><a href="#车队经历" class="headerlink" title="车队经历"></a>车队经历</h1><h2 id="任务总述"><a href="#任务总述" class="headerlink" title="任务总述"></a>任务总述</h2><p>主要是面向全国大学生无人驾驶方程式大赛，比赛主要分为静态赛和动态赛，入场之后首先进行车检，车间完成后才可以进行比赛。</p><h3 id="静态赛"><a href="#静态赛" class="headerlink" title="静态赛"></a>静态赛</h3><p>静态赛主要是无人驾驶系统设计答辩，向裁判描述自己的无人驾驶系统设计，之后由裁判提问并打分。</p><p><img src="https://s2.loli.net/2022/03/07/Zbkr8ntHuz3jqOB.png" alt="image-20220307145511002"></p><center>静态赛评分表</center><h3 id="动态赛"><a href="#动态赛" class="headerlink" title="动态赛"></a>动态赛</h3><p>动态赛主要分为操控性测试、八字绕环、直线加速、高速循迹四个项目。四个项目都是需要车检完成才可以继续其他项目。</p><h4 id="操控性测试"><a href="#操控性测试" class="headerlink" title="操控性测试"></a>操控性测试</h4><p>操控性测试是由车手驾驶车辆在<strong>未知地图</strong>中进行跑动，用时越短得分越高。</p><h4 id="八字绕环"><a href="#八字绕环" class="headerlink" title="八字绕环"></a>八字绕环</h4><p>八字绕环需要车辆在无人驾驶情况下在已知的八字形赛道中环绕两次，用时越短分数越高。20赛季我们跑出了<strong>9m&#x2F;s</strong>的速度。</p><p><img src="https://s2.loli.net/2022/03/07/JfrxyS8qoeEhQL7.png" alt="image-20220307145801276"></p><center>八字绕环地图</center><h4 id="直线加速"><a href="#直线加速" class="headerlink" title="直线加速"></a>直线加速</h4><p>直线加速需要车辆在无人驾驶情况下在已知的直线赛道中加速，到达终点后自行减速并刹车，不能超出要求的停车区域，用时越短分数越高。20赛季我们达到了<strong>20m&#x2F;s</strong>的极限速度。</p><p><img src="https://s2.loli.net/2022/03/07/f421ePQp6WYAwqM.png" alt="image-20220307150018015"></p><center>直线加速地图</center><h4 id="高速循迹"><a href="#高速循迹" class="headerlink" title="高速循迹"></a>高速循迹</h4><p>高速循迹需要车辆在无人驾驶情况下在<strong>未知赛道</strong>内进行跑动，一共三圈，用时越短分数越高。20赛季我们达到了<strong>8m&#x2F;s</strong>的平均速度。</p><p><img src="https://s2.loli.net/2022/03/07/9TgVLuQ1HkPYavz.png" alt="image-20220307150129315"></p><center>高速循迹赛道示意图</center><h2 id="无人驾驶的跑动视频"><a href="#无人驾驶的跑动视频" class="headerlink" title="无人驾驶的跑动视频"></a>无人驾驶的跑动视频</h2><video id="video" controls="" preload="none" width="640" height="360">    <source id="mp4" src="车辆跑动视频.mp4" type="video/mp4"></video><h2 id="在队期间取得的成绩"><a href="#在队期间取得的成绩" class="headerlink" title="在队期间取得的成绩"></a>在队期间取得的成绩</h2><h4 id="19赛季"><a href="#19赛季" class="headerlink" title="19赛季"></a>19赛季</h4><ul><li>赛车设计<strong>第一名</strong></li><li>无人系统设计<strong>第一名</strong></li><li>操控性测试<strong>第一名</strong></li><li>总成绩<strong>全国季军</strong></li></ul><h4 id="20赛季"><a href="#20赛季" class="headerlink" title="20赛季"></a>20赛季</h4><ul><li><p>无人系统设计<strong>第一名</strong></p></li><li><p>八字绕环<strong>第一名</strong></p></li><li><p>赛车设计第二名</p></li><li><p>操控性测试第二名</p></li><li><p>高速循迹第二名</p></li><li><p>直线加速第三名</p></li><li><p>总成绩<strong>全国亚军</strong></p></li></ul>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>车队</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>test1</title>
     <link href="/2022/03/07/test1/"/>
     <url>/2022/03/07/test1/</url>
