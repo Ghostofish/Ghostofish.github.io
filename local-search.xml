@@ -46,7 +46,7 @@
     <link href="/2022/03/07/%E7%82%B9%E4%BA%91%E5%A4%84%E7%90%86/"/>
     <url>/2022/03/07/%E7%82%B9%E4%BA%91%E5%A4%84%E7%90%86/</url>
     
-    <content type="html"><![CDATA[<h1 id="点云处理"><a href="#点云处理" class="headerlink" title="点云处理"></a>点云处理</h1><p>主要通过欧式聚类方法对点云进行聚类得到障碍物，并通过SVM判断障碍物是否是桩桶，最后通过原始点云对桩桶进行重建得到预测框并输出。</p><p><img src="C:/Users/Ghostofish/Desktop/%E5%A4%8D%E8%AF%95/%E7%82%B9%E4%BA%91%E5%A4%84%E7%90%86/%E7%82%B9%E4%BA%91.png" alt="点云处理流程图"></p><p><img src="https://s2.loli.net/2022/03/07/y8DFPNIpfdxjz93.png" alt="点云处理效果图1"></p><p><img src="https://s2.loli.net/2022/03/07/XDMwRWaqvHFzsIj.png" alt="点云处理效果图2"></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="点云处理"><a href="#点云处理" class="headerlink" title="点云处理"></a>点云处理</h1><p>主要通过欧式聚类方法对点云进行聚类得到障碍物，并通过SVM判断障碍物是否是桩桶，最后通过原始点云对桩桶进行重建得到预测框并输出。</p><p><img src="https://s2.loli.net/2022/03/07/i3m2jkL8t6dRANa.png" alt="点云处理流程图"></p><p><img src="https://s2.loli.net/2022/03/07/y8DFPNIpfdxjz93.png" alt="点云处理效果图1"></p><p><img src="https://s2.loli.net/2022/03/07/XDMwRWaqvHFzsIj.png" alt="点云处理效果图2"></p>]]></content>
     
     
     
