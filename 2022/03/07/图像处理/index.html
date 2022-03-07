@@ -16,26 +16,26 @@
   <meta name="author" content="Ghostofish">
   <meta name="keywords" content="">
   
-    <meta name="description" content="车队经历任务总述主要是面向全国大学生无人驾驶方程式大赛，比赛主要分为静态赛和动态赛，入场之后首先进行车检，车间完成后才可以进行比赛。 静态赛静态赛主要是无人驾驶系统设计答辩，向裁判描述自己的无人驾驶系统设计，之后由裁判提问并打分。  静态赛评分表  动态赛动态赛主要分为操控性测试、八字绕环、直线加速、高速循迹四个项目。四个项目都是需要车检完成才可以继续其他项目。 操控性测试操控性测试是由车手驾驶车">
+    <meta name="description" content="图像处理分别使用边缘检测方法和YOLOV3进行目标检测，同时还完成了使用resnet进行桩桶分类的任务。  要识别的障碍物  YOLO V3使用YOLO训练车队自有的数据集，输入是摄像头返回的图片，输出是桩桶在图片上的位置、颜色以及置信度。 边缘检测使用Canny算子进行边缘检测，通过道格拉斯-普克算法拟合边界，根据多边形形状得知是否是目标物。输入是摄像头返回的图片，输出是桩桶在图片上的位置和颜色">
 <meta property="og:type" content="article">
-<meta property="og:title" content="车队经历">
-<meta property="og:url" content="http://example.com/2022/03/07/%E8%BD%A6%E9%98%9F%E7%BB%8F%E5%8E%86/index.html">
+<meta property="og:title" content="图像处理">
+<meta property="og:url" content="http://example.com/2022/03/07/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/index.html">
 <meta property="og:site_name" content="Ghostofish">
-<meta property="og:description" content="车队经历任务总述主要是面向全国大学生无人驾驶方程式大赛，比赛主要分为静态赛和动态赛，入场之后首先进行车检，车间完成后才可以进行比赛。 静态赛静态赛主要是无人驾驶系统设计答辩，向裁判描述自己的无人驾驶系统设计，之后由裁判提问并打分。  静态赛评分表  动态赛动态赛主要分为操控性测试、八字绕环、直线加速、高速循迹四个项目。四个项目都是需要车检完成才可以继续其他项目。 操控性测试操控性测试是由车手驾驶车">
+<meta property="og:description" content="图像处理分别使用边缘检测方法和YOLOV3进行目标检测，同时还完成了使用resnet进行桩桶分类的任务。  要识别的障碍物  YOLO V3使用YOLO训练车队自有的数据集，输入是摄像头返回的图片，输出是桩桶在图片上的位置、颜色以及置信度。 边缘检测使用Canny算子进行边缘检测，通过道格拉斯-普克算法拟合边界，根据多边形形状得知是否是目标物。输入是摄像头返回的图片，输出是桩桶在图片上的位置和颜色">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://s2.loli.net/2022/03/07/Zbkr8ntHuz3jqOB.png">
-<meta property="og:image" content="https://s2.loli.net/2022/03/07/JfrxyS8qoeEhQL7.png">
-<meta property="og:image" content="https://s2.loli.net/2022/03/07/f421ePQp6WYAwqM.png">
-<meta property="og:image" content="https://s2.loli.net/2022/03/07/9TgVLuQ1HkPYavz.png">
-<meta property="article:published_time" content="2022-03-07T06:37:41.000Z">
-<meta property="article:modified_time" content="2022-03-07T08:34:48.249Z">
+<meta property="og:image" content="https://s2.loli.net/2022/03/07/zJrHnA8QlcUNS3P.png">
+<meta property="og:image" content="https://s2.loli.net/2022/03/07/9zLcxHDBly4dKWV.jpg">
+<meta property="og:image" content="https://s2.loli.net/2022/03/07/WnvzYpL8AolrcXI.png">
+<meta property="og:image" content="https://s2.loli.net/2022/03/07/oV6qSEdwA1RHiyG.png">
+<meta property="article:published_time" content="2022-03-07T07:56:41.000Z">
+<meta property="article:modified_time" content="2022-03-07T08:32:13.044Z">
 <meta property="article:author" content="Ghostofish">
-<meta property="article:tag" content="车队">
+<meta property="article:tag" content="车队 图像处理">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://s2.loli.net/2022/03/07/Zbkr8ntHuz3jqOB.png">
+<meta name="twitter:image" content="https://s2.loli.net/2022/03/07/zJrHnA8QlcUNS3P.png">
   
   
-  <title>车队经历 - Ghostofish</title>
+  <title>图像处理 - Ghostofish</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -192,7 +192,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="车队经历"></span>
+            <span id="subtitle" data-typed-text="图像处理"></span>
           
         </div>
 
@@ -203,7 +203,7 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2022-03-07 14:37" pubdate>
+        <time datetime="2022-03-07 15:56" pubdate>
           2022年3月7日 下午
         </time>
       </span>
@@ -215,7 +215,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          571 字
+          294 字
         
       </span>
     
@@ -226,7 +226,7 @@
         
         
         
-          5 分钟
+          3 分钟
         
       </span>
     
@@ -264,55 +264,26 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">车队经历</h1>
+            <h1 style="display: none">图像处理</h1>
             
             <div class="markdown-body">
               
-              <h1 id="车队经历"><a href="#车队经历" class="headerlink" title="车队经历"></a>车队经历</h1><h2 id="任务总述"><a href="#任务总述" class="headerlink" title="任务总述"></a>任务总述</h2><p>主要是面向全国大学生无人驾驶方程式大赛，比赛主要分为静态赛和动态赛，入场之后首先进行车检，车间完成后才可以进行比赛。</p>
-<h3 id="静态赛"><a href="#静态赛" class="headerlink" title="静态赛"></a>静态赛</h3><p>静态赛主要是无人驾驶系统设计答辩，向裁判描述自己的无人驾驶系统设计，之后由裁判提问并打分。</p>
-<p><img src="https://s2.loli.net/2022/03/07/Zbkr8ntHuz3jqOB.png" srcset="/img/loading.gif" lazyload alt="image-20220307145511002"></p>
-<center>静态赛评分表</center>
+              <h1 id="图像处理"><a href="#图像处理" class="headerlink" title="图像处理"></a>图像处理</h1><p>分别使用边缘检测方法和YOLOV3进行目标检测，同时还完成了使用resnet进行桩桶分类的任务。</p>
+<p><img src="https://s2.loli.net/2022/03/07/zJrHnA8QlcUNS3P.png" srcset="/img/loading.gif" lazyload alt="image-20220307160614292"></p>
+<center>要识别的障碍物</center>
 
-<h3 id="动态赛"><a href="#动态赛" class="headerlink" title="动态赛"></a>动态赛</h3><p>动态赛主要分为操控性测试、八字绕环、直线加速、高速循迹四个项目。四个项目都是需要车检完成才可以继续其他项目。</p>
-<h4 id="操控性测试"><a href="#操控性测试" class="headerlink" title="操控性测试"></a>操控性测试</h4><p>操控性测试是由车手驾驶车辆在<strong>未知地图</strong>中进行跑动，用时越短得分越高。</p>
-<h4 id="八字绕环"><a href="#八字绕环" class="headerlink" title="八字绕环"></a>八字绕环</h4><p>八字绕环需要车辆在无人驾驶情况下在已知的八字形赛道中环绕两次，用时越短分数越高。20赛季我们跑出了<strong>9m&#x2F;s</strong>的速度。</p>
-<p><img src="https://s2.loli.net/2022/03/07/JfrxyS8qoeEhQL7.png" srcset="/img/loading.gif" lazyload alt="image-20220307145801276"></p>
-<center>八字绕环地图</center>
+<h2 id="YOLO-V3"><a href="#YOLO-V3" class="headerlink" title="YOLO V3"></a>YOLO V3</h2><p>使用YOLO训练车队自有的数据集，输入是摄像头返回的图片，输出是桩桶在图片上的位置、颜色以及置信度。</p>
+<h2 id="边缘检测"><a href="#边缘检测" class="headerlink" title="边缘检测"></a>边缘检测</h2><p>使用Canny算子进行边缘检测，通过道格拉斯-普克算法拟合边界，根据多边形形状得知是否是目标物。输入是摄像头返回的图片，输出是桩桶在图片上的位置和颜色。</p>
+<p><img src="https://s2.loli.net/2022/03/07/9zLcxHDBly4dKWV.jpg" srcset="/img/loading.gif" lazyload alt="gggg"></p>
+<center>边缘检测方法效果图</center>
 
-<h4 id="直线加速"><a href="#直线加速" class="headerlink" title="直线加速"></a>直线加速</h4><p>直线加速需要车辆在无人驾驶情况下在已知的直线赛道中加速，到达终点后自行减速并刹车，不能超出要求的停车区域，用时越短分数越高。20赛季我们达到了<strong>20m&#x2F;s</strong>的极限速度。</p>
-<p><img src="https://s2.loli.net/2022/03/07/f421ePQp6WYAwqM.png" srcset="/img/loading.gif" lazyload alt="image-20220307150018015"></p>
-<center>直线加速地图</center>
+<h2 id="ResNet"><a href="#ResNet" class="headerlink" title="ResNet"></a>ResNet</h2><p>基于ResNet网络结构自行搭建网络，训练车队自有数据集，输入是摄像头返回的图片经过点云投影后得到的感兴趣区域，输出是桩桶颜色以及置信度。</p>
+<p><img src="https://s2.loli.net/2022/03/07/WnvzYpL8AolrcXI.png" srcset="/img/loading.gif" lazyload alt="image-20220307162448344"></p>
+<center>训练过程图</center>
 
-<h4 id="高速循迹"><a href="#高速循迹" class="headerlink" title="高速循迹"></a>高速循迹</h4><p>高速循迹需要车辆在无人驾驶情况下在<strong>未知赛道</strong>内进行跑动，一共三圈，用时越短分数越高。20赛季我们达到了<strong>8m&#x2F;s</strong>的平均速度。</p>
-<p><img src="https://s2.loli.net/2022/03/07/9TgVLuQ1HkPYavz.png" srcset="/img/loading.gif" lazyload alt="image-20220307150129315"></p>
-<center>高速循迹赛道示意图</center>
+<p><img src="https://s2.loli.net/2022/03/07/oV6qSEdwA1RHiyG.png" srcset="/img/loading.gif" lazyload alt="image-20220307163154060"></p>
+<center>ResNet预测结果</center>
 
-<h2 id="无人驾驶的跑动视频"><a href="#无人驾驶的跑动视频" class="headerlink" title="无人驾驶的跑动视频"></a>无人驾驶的跑动视频</h2><video id="video" controls="" preload="none" width="640" height="360">
-    <source id="mp4" src="车辆跑动视频.mp4" type="video/mp4">
-</video>
-
-<h2 id="在队期间取得的成绩"><a href="#在队期间取得的成绩" class="headerlink" title="在队期间取得的成绩"></a>在队期间取得的成绩</h2><h4 id="19赛季"><a href="#19赛季" class="headerlink" title="19赛季"></a>19赛季</h4><ul>
-<li>赛车设计<strong>第一名</strong></li>
-<li>无人系统设计<strong>第一名</strong></li>
-<li>操控性测试<strong>第一名</strong></li>
-<li>总成绩<strong>全国季军</strong></li>
-</ul>
-<h4 id="20赛季"><a href="#20赛季" class="headerlink" title="20赛季"></a>20赛季</h4><ul>
-<li><p>无人系统设计<strong>第一名</strong></p>
-</li>
-<li><p>八字绕环<strong>第一名</strong></p>
-</li>
-<li><p>赛车设计第二名</p>
-</li>
-<li><p>操控性测试第二名</p>
-</li>
-<li><p>高速循迹第二名</p>
-</li>
-<li><p>直线加速第三名</p>
-</li>
-<li><p>总成绩<strong>全国亚军</strong></p>
-</li>
-</ul>
 
               
             </div>
@@ -324,7 +295,7 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/%E8%BD%A6%E9%98%9F/">#车队</a>
+        <a href="/tags/%E8%BD%A6%E9%98%9F-%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/">#车队 图像处理</a>
       
     </div>
   
@@ -336,8 +307,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>车队经历</div>
-      <div>http://example.com/2022/03/07/%E8%BD%A6%E9%98%9F%E7%BB%8F%E5%8E%86/</div>
+      <div>图像处理</div>
+      <div>http://example.com/2022/03/07/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/</div>
     </div>
     <div class="license-meta">
       
@@ -379,15 +350,21 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2022/03/07/%E7%82%B9%E4%BA%91%E5%A4%84%E7%90%86/" title="点云处理">
+                      <a href="/2022/03/07/%E7%9B%B4%E7%BA%BF%E9%A1%B9%E7%9B%AE/" title="直线项目">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">点云处理</span>
+                        <span class="hidden-mobile">直线项目</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
                   </article>
                   <article class="post-next col-6">
                     
+                    
+                      <a href="/2022/03/07/%E7%82%B9%E4%BA%91%E5%A4%84%E7%90%86/" title="点云处理">
+                        <span class="hidden-mobile">点云处理</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
                     
                   </article>
                 </div>
