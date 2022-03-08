@@ -16,19 +16,19 @@
   <meta name="author" content="Ghostofish">
   <meta name="keywords" content="">
   
-    <meta name="description" content="图像处理分别使用边缘检测方法和YOLOV3进行目标检测，同时还完成了使用ResNet进行桩桶分类的任务。  YOLO V3使用YOLO训练车队自有的数据集，输入是摄像头返回的图片，输出是桩桶在图片上的位置、颜色以及置信度。 边缘检测使用Canny算子进行边缘检测，通过道格拉斯-普克算法拟合边界，根据多边形形状得知是否是目标物。输入是摄像头返回的图片，输出是桩桶在图片上的位置和颜色。  ResNet">
+    <meta name="description" content="图像处理分别使用边缘检测方法和YOLOV3进行目标检测，同时还完成了使用ResNet进行桩桶分类的任务。  YOLO V3使用YOLO训练车队自有的数据集，输入是摄像头返回的图片，输出是桩桶在图片上的位置、颜色以及置信度。 边缘检测使用Canny算子进行边缘检测，通过道格拉斯-普克算法拟合边界，根据多边形形状得知是否是目标物。输入是摄像头返回的图片，输出是桩桶在图片上的位置和颜色。最终效果可以达到">
 <meta property="og:type" content="article">
 <meta property="og:title" content="图像处理">
 <meta property="og:url" content="http://example.com/2022/03/07/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/index.html">
 <meta property="og:site_name" content="Ghostofish">
-<meta property="og:description" content="图像处理分别使用边缘检测方法和YOLOV3进行目标检测，同时还完成了使用ResNet进行桩桶分类的任务。  YOLO V3使用YOLO训练车队自有的数据集，输入是摄像头返回的图片，输出是桩桶在图片上的位置、颜色以及置信度。 边缘检测使用Canny算子进行边缘检测，通过道格拉斯-普克算法拟合边界，根据多边形形状得知是否是目标物。输入是摄像头返回的图片，输出是桩桶在图片上的位置和颜色。  ResNet">
+<meta property="og:description" content="图像处理分别使用边缘检测方法和YOLOV3进行目标检测，同时还完成了使用ResNet进行桩桶分类的任务。  YOLO V3使用YOLO训练车队自有的数据集，输入是摄像头返回的图片，输出是桩桶在图片上的位置、颜色以及置信度。 边缘检测使用Canny算子进行边缘检测，通过道格拉斯-普克算法拟合边界，根据多边形形状得知是否是目标物。输入是摄像头返回的图片，输出是桩桶在图片上的位置和颜色。最终效果可以达到">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://s2.loli.net/2022/03/07/zJrHnA8QlcUNS3P.png">
 <meta property="og:image" content="https://s2.loli.net/2022/03/07/9zLcxHDBly4dKWV.jpg">
 <meta property="og:image" content="https://s2.loli.net/2022/03/07/WnvzYpL8AolrcXI.png">
 <meta property="og:image" content="https://s2.loli.net/2022/03/07/oV6qSEdwA1RHiyG.png">
 <meta property="article:published_time" content="2022-03-07T07:56:41.000Z">
-<meta property="article:modified_time" content="2022-03-07T10:04:52.361Z">
+<meta property="article:modified_time" content="2022-03-08T02:22:56.886Z">
 <meta property="article:author" content="Ghostofish">
 <meta property="article:tag" content="图像处理">
 <meta name="twitter:card" content="summary_large_image">
@@ -215,7 +215,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          263 字
+          312 字
         
       </span>
     
@@ -271,9 +271,9 @@
               <h1 id="图像处理"><a href="#图像处理" class="headerlink" title="图像处理"></a>图像处理</h1><p>分别使用边缘检测方法和YOLOV3进行目标检测，同时还完成了使用ResNet进行桩桶分类的任务。</p>
 <p><img src="https://s2.loli.net/2022/03/07/zJrHnA8QlcUNS3P.png" srcset="/img/loading.gif" lazyload alt="要识别的障碍物"></p>
 <h2 id="YOLO-V3"><a href="#YOLO-V3" class="headerlink" title="YOLO V3"></a>YOLO V3</h2><p>使用YOLO训练车队自有的数据集，输入是摄像头返回的图片，输出是桩桶在图片上的位置、颜色以及置信度。</p>
-<h2 id="边缘检测"><a href="#边缘检测" class="headerlink" title="边缘检测"></a>边缘检测</h2><p>使用Canny算子进行边缘检测，通过道格拉斯-普克算法拟合边界，根据多边形形状得知是否是目标物。输入是摄像头返回的图片，输出是桩桶在图片上的位置和颜色。</p>
+<h2 id="边缘检测"><a href="#边缘检测" class="headerlink" title="边缘检测"></a>边缘检测</h2><p>使用Canny算子进行边缘检测，通过道格拉斯-普克算法拟合边界，根据多边形形状得知是否是目标物。输入是摄像头返回的图片，输出是桩桶在图片上的位置和颜色。最终效果可以达到8ms一帧，准确率在97%以上。</p>
 <p><img src="https://s2.loli.net/2022/03/07/9zLcxHDBly4dKWV.jpg" srcset="/img/loading.gif" lazyload alt="边缘检测方法效果图"></p>
-<h2 id="ResNet"><a href="#ResNet" class="headerlink" title="ResNet"></a>ResNet</h2><p>基于ResNet网络结构自行搭建网络，训练车队自有数据集，输入是摄像头返回的图片经过点云投影后得到的感兴趣区域，输出是桩桶颜色以及置信度。</p>
+<h2 id="ResNet"><a href="#ResNet" class="headerlink" title="ResNet"></a>ResNet</h2><p>基于ResNet网络结构自行搭建网络，训练车队自有数据集，输入是摄像头返回的图片经过点云投影后得到的感兴趣区域，输出是桩桶颜色以及置信度。最终可以达到15-20ms一帧，准确率95%以上。</p>
 <p><img src="https://s2.loli.net/2022/03/07/WnvzYpL8AolrcXI.png" srcset="/img/loading.gif" lazyload alt="训练过程图"></p>
 <p><img src="https://s2.loli.net/2022/03/07/oV6qSEdwA1RHiyG.png" srcset="/img/loading.gif" lazyload alt="ResNet预测结果"></p>
 
