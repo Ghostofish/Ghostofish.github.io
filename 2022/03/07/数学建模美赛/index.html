@@ -16,21 +16,20 @@
   <meta name="author" content="Ghostofish">
   <meta name="keywords" content="">
   
-    <meta name="description" content="数学建模美赛我参加的是2020年的比赛，做的是D题，最终获得了F奖（Finalist特等奖提名），主要任务是根据给出的英超联赛每一场比赛的球员行为数据，分析该赛季球队的表现，队员的配合程度以及下赛季的改进方向。  在每次动作中，场上发生的最大变化就是球产生了位移，所以我建立了基于足球位移和进球贡献度的模型，以球在场上的位置提供一个进球贡献度指标，球离对方球门越近，贡献度越大。同时，建议每个球员的能">
+    <meta name="description" content="数学建模美赛我参加的是2020年的比赛，做的是D题，最终获得了F奖（Finalist特等奖提名），主要任务是根据给出的英超联赛每一场比赛的球员行为数据，分析该赛季球队的表现，队员的配合程度以及下赛季的改进方向。   在每次动作中，场上发生的最大变化就是球产生了位移，所以我建立了基于足球位移和进球贡献度的模型，以球在场上的位置提供一个进球贡献度指标，球离对方球门越近，贡献度越大。同时，建议每个球员的">
 <meta property="og:type" content="article">
 <meta property="og:title" content="数学建模美赛">
 <meta property="og:url" content="http://example.com/2022/03/07/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E7%BE%8E%E8%B5%9B/index.html">
 <meta property="og:site_name" content="Ghostofish">
-<meta property="og:description" content="数学建模美赛我参加的是2020年的比赛，做的是D题，最终获得了F奖（Finalist特等奖提名），主要任务是根据给出的英超联赛每一场比赛的球员行为数据，分析该赛季球队的表现，队员的配合程度以及下赛季的改进方向。  在每次动作中，场上发生的最大变化就是球产生了位移，所以我建立了基于足球位移和进球贡献度的模型，以球在场上的位置提供一个进球贡献度指标，球离对方球门越近，贡献度越大。同时，建议每个球员的能">
+<meta property="og:description" content="数学建模美赛我参加的是2020年的比赛，做的是D题，最终获得了F奖（Finalist特等奖提名），主要任务是根据给出的英超联赛每一场比赛的球员行为数据，分析该赛季球队的表现，队员的配合程度以及下赛季的改进方向。   在每次动作中，场上发生的最大变化就是球产生了位移，所以我建立了基于足球位移和进球贡献度的模型，以球在场上的位置提供一个进球贡献度指标，球离对方球门越近，贡献度越大。同时，建议每个球员的">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://s2.loli.net/2022/03/08/mctRVeaKdWMUuZ2.png">
 <meta property="og:image" content="https://s2.loli.net/2022/03/08/SOYCkzxynf1tLEa.png">
 <meta property="article:published_time" content="2022-03-07T09:29:38.000Z">
-<meta property="article:modified_time" content="2022-03-08T02:22:03.422Z">
+<meta property="article:modified_time" content="2022-03-08T02:28:50.052Z">
 <meta property="article:author" content="Ghostofish">
 <meta property="article:tag" content="数学建模美赛">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://s2.loli.net/2022/03/08/mctRVeaKdWMUuZ2.png">
+<meta name="twitter:image" content="https://s2.loli.net/2022/03/08/SOYCkzxynf1tLEa.png">
   
   
   <title>数学建模美赛 - Ghostofish</title>
@@ -267,7 +266,8 @@
             <div class="markdown-body">
               
               <h1 id="数学建模美赛"><a href="#数学建模美赛" class="headerlink" title="数学建模美赛"></a>数学建模美赛</h1><p>我参加的是2020年的比赛，做的是D题，最终获得了F奖（Finalist特等奖提名），主要任务是根据给出的英超联赛每一场比赛的球员行为数据，分析该赛季球队的表现，队员的配合程度以及下赛季的改进方向。</p>
-<p><img src="https://s2.loli.net/2022/03/08/mctRVeaKdWMUuZ2.png" srcset="/img/loading.gif" lazyload alt="数据示例"></p>
+<center><embed src="EI论文.pdf" width="700" height="900"></center>
+
 <p>在每次动作中，场上发生的最大变化就是球产生了位移，所以我建立了基于足球位移和进球贡献度的模型，以球在场上的位置提供一个进球贡献度指标，球离对方球门越近，贡献度越大。同时，建议每个球员的能力不同，我提出了球员能力指数作为补充，将球在球场某位置的贡献度与当时球员的能力指数相乘得到球当前时刻的贡献度，最后得到贡献度计算公式：</p>
 <p>$$((l−k)∗(1−CD&#x2F;dmax+sin(α&#x2F;2))&#x2F;2+k∗sin(((1−CD&#x2F;dmax+sin(α&#x2F;2))&#x2F;2)∗Π&#x2F;2))$$</p>
 <p><img src="https://s2.loli.net/2022/03/08/SOYCkzxynf1tLEa.png" srcset="/img/loading.gif" lazyload alt="不同球员控球的贡献度热力图"></p>
